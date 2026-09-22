@@ -1,0 +1,11 @@
+# Arquivos e pastas de dados do projeto. Não devem ir para o repositório público.
+/data/
+/dataset/
+/trainer/
+
+# Arquivos temporários do Python
+__pycache__/
+*.pyc
+
+# Arquivos de ambiente do VS Code
+.vscode/
