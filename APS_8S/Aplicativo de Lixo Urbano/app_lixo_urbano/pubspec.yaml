@@ -1,0 +1,32 @@
+name: app_lixo_urbano
+description: App de reporte de pontos de descarte irregular e status de contêineres.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  flutter_map: ^7.0.0
+  latlong2: ^0.9.1
+  image_picker: ^1.1.2
+  cupertino_icons: ^1.0.6
+  geolocator: ^13.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.1
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo.png
